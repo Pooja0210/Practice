@@ -1,0 +1,12 @@
+pubsub-example:
+  subscription:
+    name:  projects/pubsubdemo-353505/subscriptions/test-subscription
+  topic:
+    name:  projects/pubsubdemo-353505/topics/test
+
+spring:
+  cloud:
+    gcp:
+      project-id: pubsubdemo-353505 
+      credentials:
+        location: classpath:pubsubdemo-353505-dd7833f82464.json

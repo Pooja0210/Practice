@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.anbu.pubsubdemo.PubsubdemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.524 s <<< FAILURE! - in com.anbu.pubsubdemo.PubsubdemoApplicationTests
+com.anbu.pubsubdemo.PubsubdemoApplicationTests  Time elapsed: 0.521 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
